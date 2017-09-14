@@ -1,0 +1,105 @@
+---
+title: "The Rhythm Goes Awry"
+author: "Viviana Alejandra Rodriguez Romero <br>   
+        BIOS 567 - Statistical Methods for High-throughput Genomic Data I"
+date: "September 13, 2017"
+output:
+  ioslides_presentation: default
+  incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Case
+<div class="columns-2">
+  ![](img\w1.png)
+
+  - Woman in her mid-twenties        
+  - Frequent bouts of breathlessness            
+  - Twin sister $Y$ has the same issue        
+  - <div class="red2"> Heart failure </div>          
+  - <div class="red2"> Abnormally fast heart rhythm </div>
+</div>
+
+
+## $X$'s family
+
+![](img\f.png)
+
+##     
+
+<br />
+<br />
+
+<div class="blue2" style="font-size:180%; text-align: center;"><b>What was the cause of abnormal heart rhythms and heart failure in this family?</b> </div>
+
+## Whole exome sequencing
+
+- $X$ and $S$ genome sequencing
+- Compare with healthy genome sequence
+- Tens of thousands of these variants
+- Genes which impact the development and functioning of the heart (200)
+
+    > - The Heartbeat 
+    > - The Muscle
+    > - The Glue  
+
+
+## The Heartbeat
+
+- Built-in clock
+- at least 25 "channel genes"
+
+<div style="text-align: center;"><IMG HEIGHT="400" WIDTH="350" SRC="img\f3.3.png"></div> 
+
+## The Muscle
+
+![](img\f3.5.png)
+
+##     
+
+![](img\f3.6.png)  
+
+
+## The Glue  
+
+![](img\f3.7.png)  
+
+
+
+## Gene candidates
+
+- OBSCN: construction of sarcomeres
+- TTN 
+- LAMA4: collagen outside the muscle cell 
+- DSP
+
+
+## Missing characters     
+
+![](img\f3.8.png)  
+
+## How does this variant impact DSP's recipe?   
+
+![](img\f3.9.png)  
+
+## From mice to humans
+
+- Both copies of DSP were knocked-out, mice died while they were still tiny embryos
+- DSP knock-out effect happens only in the heart cells, mice survive as embryos but they died within a couple of weeks of birth
+- Only one DSP copy is knocked-out, mice were born normally but 20% died within 6 months of birth
+- Patients with heart complications and with one copy of DSP prematurely truncated?
+
+    > - The effect of premature truncation in one copy is not fully consistent
+    > - Other genes or interactions?
+    
+## Wrapping Up
+
+- X has heart condition that affects other family members
+- Premature truncation of the DSP gene is the likely cause of their affliction
+- Arrhythmogenic Left Ventricle Dysplasia
+- Another implanted device
+- Many genes left      
